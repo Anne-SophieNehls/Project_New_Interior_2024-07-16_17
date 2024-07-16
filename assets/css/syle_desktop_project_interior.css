@@ -1,3 +1,31 @@
+@font-face {
+    font-family: "Helvetica-Medium";
+    src: url("../font/helvetica-neue-5/HelveticaNeueMedium.otf");
+}
+
+@font-face {
+    font-family: "Nixie";
+    src: url("../font/Nixie_One/NixieOne-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Alegreya-Reg";
+    src: url("../font/Alegreya_SC/AlegreyaSC-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Alegreya-bold";
+    src: url("../font/Alegreya_SC/AlegreyaSC-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Alegreya-black";
+    src: url("../font/Alegreya_SC/AlegreyaSC-Black.ttf");
+}
+
+/* ********** Allgemeine Styles *********** */
+
+
 *{
     margin: 0;
     padding: 0;
@@ -9,27 +37,103 @@ html{
 }
 
 /* ********** Allgemeine Styles *********** */
-p{
+.paralax{
 
+}
+
+.transparenz{
+    background-color: rgba(0, 0, 0, 0.14);
+    margin: 50px;
+    padding: 30px;
+}
+
+
+/* ********** Allgemeine Styles FONTS *********** */
+
+p{
+/*     color: #6A6A6A; */
+    font-family: "Helvetica-Medium";
 }
 
 a{
     text-decoration: none;
+    color: #4DA7CA;
 }
 
 h2{
+/*     color: #3A4F52; */
 
+
+}
+
+h3{
+/*     color: #3A4F52; */
+
+}
+
+h4{
+    color: white;
+
+}
+
+/* ********** Button Styles allgemein *********** */
+
+button{
+    padding: 5px 10px;
+    background-color: rgba(255, 255, 255, 0);
+    font-size: 20px;
+}
+
+.btn_white{
+    color: white;
+    border: 2px solid white;
+}
+
+.btn_gray{
+    color: #3A4F52;
+    border: 2px solid #3A4F52;
+
+}
+
+/* ********** flex classes *********** */
+
+.flex_space_between{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 25px 50px;
+}
+
+.flex_row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+.flex_column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 28svw;
+    gap: 20px;
 }
 
 
 /* ********** Nav *********** */
 
 h1{
-
+    color: white;
+    font-family: "Alegreya-Reg";
+    font-size: 2.5rem;
 }
 
 h1:hover{
-
+    text-decoration: underline;
 }
 
 .burger{
@@ -37,10 +141,8 @@ h1:hover{
     width: 50px;
     height: 10px;
     border-radius: 10px;
-    margin: 5px;
+    margin: 8px;
 }
-
-
 
 /* ********** Hero *********** */
 
@@ -49,20 +151,30 @@ h1:hover{
     background-repeat: no-repeat;
     background-position: center center;
     background-size: fill;
-   
+    color: white;
+    height: 100svh;
 }
 
 #title{
+    font-family: "Nixie";
+    font-size: 6rem;
+    text-align: center;
+    font-weight: 100;
 
 }
 
 #claim{
+    font-family: "Nixie";
+    font-size: 2rem;
+    font-weight: 800;
+    text-align: center;
 
 }
 
 
 /* ********** Gallery *********** */
 #gallery{
+    color: #6A6A6A;
 
 }
 
@@ -81,13 +193,14 @@ h1:hover{
 
 /* ********** Our Services *********** */
 #Our_Services{
-
+    color: white;
 }
 
 
 /* ********** Blog *********** */
 
 #Blog{
+    color: #3A4F52;
 
 }
 
@@ -96,6 +209,7 @@ h1:hover{
 /* ********** bla *********** */
 
 #bla{
+    color: white;
 
 }
 
@@ -103,6 +217,7 @@ h1:hover{
 /* ********** Testimonials *********** */
 
 #Testimonials{
+    color: #6A6A6A;
 
 }
 
@@ -111,7 +226,16 @@ h1:hover{
 /* ********** contact us *********** */
 
 #contact_us{
+    color: white;
 
+}
+
+input{
+    width: 60svw;
+    height: 30px;
+    color: white;
+    background-color: none;
+    border: 1px solid white;
 }
 
 
@@ -120,10 +244,11 @@ h1:hover{
 
 footer{
     background-color: #2B3E51;
-    height: 250px;
+    height: 200px;
 }
 
 footer>p{
     color: white;
     padding: 5%;
+    font-weight: 100;
 }
