@@ -1,0 +1,58 @@
+
+p{
+    font-size: 18px;
+}
+
+/* ********** flex classes *********** */
+
+.flex_space_between{
+    padding: 15px 50px;
+}
+
+.flex_column_left{
+    min-width: 70%;
+    margin: 10% 4%; 
+}
+
+.flex_column{
+    width: 85svw;
+    margin: 10% 4%;
+}
+
+/* **********  weiteres *********** */
+
+#gallery{
+    padding: 4%;
+} 
+
+.gallery_img{
+    height: auto; 
+    overflow: hidden;  
+    width: 40svw; 
+}
+
+.img_hover{
+    object-fit: cover;
+}
+
+#Our_Services{
+    padding: 7% 7%
+}
+
+.flex_column_left>img{
+    height: 40svh;
+    width: 65svw;
+    object-fit: cover;
+}
+
+#Blog{
+    padding: 2%;
+}
+
+#bla{
+    padding: 7% 7%;
+}
+
+#Testimonials>div>div{
+    padding: 10px 20px 20px 20px;
+}

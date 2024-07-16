@@ -35,7 +35,6 @@
 
 /* ********** Allgemeine Styles *********** */
 
-
 *{
     margin: 0;
     padding: 0;
@@ -44,6 +43,7 @@
 
 html{
     scroll-behavior: smooth;
+    font-family: "Helvetica-Medium";
 }
 
 /* ********** Allgemeine Styles *********** */
@@ -60,12 +60,11 @@ html{
     padding: 40px;
 }
 
-
 /* ********** Allgemeine Styles FONTS *********** */
 
 p{
     font-family: "Helvetica-Medium";
-    margin: 15px 0p;
+    margin: 15px 0px;
 }
 
 i{
@@ -78,13 +77,15 @@ b{
 }
 
 a{
+    font-family: "Helvetica-Medium";
     text-decoration: none;
     color: #4DA7CA;
 }
 
 h2{
-   color: #3A4F52;
-   font-size: 36px;
+    font-family: "Alegreya-bold";
+    color: #3A4F52;
+    font-size: 36px;
 }
 
 .h2_white{
@@ -94,11 +95,13 @@ h2{
 }
 
 h3{
+    font-family: "Alegreya-bold";
     color: #3A4F52; 
     font-size: 28px;
 }
 
 h4{
+    font-family: "Alegreya-bold";
     color: white;
     font-size: 28px;
 }
@@ -172,7 +175,6 @@ button{
     margin: 30px 5px;
 }
 
-
 /* ********** Nav *********** */
 
 h1{
@@ -228,21 +230,16 @@ h1:hover{
 #gallery{
     color: #6A6A6A;
     padding: 5%;
-
 }
 
 .gallery_img{
-/*     display: block;*/
-/*     width: 100%;
- */    height: auto; 
-    overflow: hidden;
-    
+    height: auto; 
+    overflow: hidden;   
 }
 
 .gallery_img:hover .blue{
     opacity: 0.7;
 }
-
 
 .gallery_img:hover .img_hover{
     transform: scale(2.0); 
@@ -281,19 +278,14 @@ h1:hover{
     background-image: url(../img/stuhl_gelb.png);
     min-height: 50svh;
     padding: 5%;
-
 }
-
 
 /* ********** Blog *********** */
 
 #Blog{
     color: #3A4F52;
     padding: 5%;
-
 }
-
-
 
 /* ********** bla *********** */
 
@@ -303,9 +295,7 @@ h1:hover{
     background-image: url(../img/stuhl_green.png);
     min-height: 40svh;
     padding: 5%;
-
 }
-
 
 /* ********** Testimonials *********** */
 
@@ -318,10 +308,6 @@ h1:hover{
 #Testimonials>div>div{
     padding: 50px 20px 20px 20px;
 }
-
-
-
-
 
 /* ********** contact us *********** */
 
@@ -341,12 +327,16 @@ input{
     width: 40svw;
     height: 60px;
     color: white;
+    font-size: 16px;
     background-color: rgba(255, 255, 255, 0);
     border: 2px solid white;
     margin: 10px 5% 10px 5% ;
+    padding: 10px;
 }
 
-
+input:nth-of-type(3){
+    height: 150px;
+}
 
 /* ********** Footer *********** */
 
@@ -356,6 +346,7 @@ footer{
 }
 
 footer>p{
+
     color: white;
     padding: 5%;
     font-weight: 100;

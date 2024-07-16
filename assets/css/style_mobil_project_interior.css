@@ -1,0 +1,99 @@
+/* ********** Allgemeine Styles FONTS *********** */
+
+p{
+    margin: 15px 0p;
+    font-size: 14px;
+}
+
+h2{
+   font-size: 25px;
+}
+
+.h2_white{
+    padding-top: 35px;
+}
+
+h3{
+    font-size: 25px;
+}
+
+h4{
+    font-size: 25px;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+#title{
+    font-size: 3rem;
+}
+
+#claim{
+    font-size: 1.7rem;
+}
+
+/* ********** flex classes *********** */
+
+.flex_row{
+    flex-direction: column;  
+}
+
+.flex_space_between{
+    margin: 30px 0px;
+    padding: 25px 15px;
+}
+
+.flex_column {
+    width: 75svw;
+    margin: 5px;
+    padding: 10px;
+}
+
+.flex_column_left{
+    margin: 5px;
+    width: 75svw;
+}
+/* ********** Gallery *********** */
+#gallery{
+    padding: 8%;
+}
+
+/* ********** Our Services *********** */
+#Our_Services{
+    padding: 10% 0%;
+}
+
+/* ********** bla *********** */
+
+#bla{
+    padding: 10% -10px;
+}
+
+/* ********** Testimonials *********** */
+
+#Testimonials{
+    margin: 10%;
+}
+
+/* ********** contact us *********** */
+
+#contact_us{
+    min-height: 80svh;
+    padding: 8% 0%;
+}
+
+form{
+    margin: 2% 0%;
+} 
+
+input{
+    width: 65svw;
+}
+
+/* ********** Footer *********** */
+footer>p{
+    font-size: 20px;
+    width: 40svw;
+    line-height: 150%;
+}
