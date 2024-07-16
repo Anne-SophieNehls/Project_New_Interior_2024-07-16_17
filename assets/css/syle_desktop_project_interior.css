@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* ********** Allgemeine Styles *********** */
+p{
+
+}
+
+a{
+    text-decoration: none;
+}
+
+h2{
+
+}
+
+
+/* ********** Nav *********** */
+
+h1{
+
+}
+
+h1:hover{
+
+}
+
+.burger{
+    background-color: white;
+    width: 50px;
+    height: 10px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+
+
+/* ********** Hero *********** */
+
+#hero{
+    background-image: url(../img/bild-hero.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: fill;
+   
+}
+
+#title{
+
+}
+
+#claim{
+
+}
+
+
+/* ********** Gallery *********** */
+#gallery{
+
+}
+
+.gallery_img{
+
+}
+
+.gallery_img:hover{
+
+}
+
+.blue{
+
+}
+
+
+/* ********** Our Services *********** */
+#Our_Services{
+
+}
+
+
+/* ********** Blog *********** */
+
+#Blog{
+
+}
+
+
+
+/* ********** bla *********** */
+
+#bla{
+
+}
+
+
+/* ********** Testimonials *********** */
+
+#Testimonials{
+
+}
+
+
+
+/* ********** contact us *********** */
+
+#contact_us{
+
+}
+
+
+
+/* ********** Footer *********** */
+
+footer{
+    background-color: #2B3E51;
+    height: 250px;
+}
+
+footer>p{
+    color: white;
+    padding: 5%;
+}
