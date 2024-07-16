@@ -4,6 +4,16 @@
 }
 
 @font-face {
+    font-family: "Helvetica-Italic";
+    src: url("../font/helvetica-neue-5/HelveticaNeueLightItalic.otf");
+}
+
+@font-face {
+    font-family: "Helvetica-Bold";
+    src: url("../font/helvetica-neue-5/HelveticaNeueBlack.otf");
+}
+
+@font-face {
     font-family: "Nixie";
     src: url("../font/Nixie_One/NixieOne-Regular.ttf");
 }
@@ -37,6 +47,7 @@ html{
 }
 
 /* ********** Allgemeine Styles *********** */
+
 .paralax{
     background-attachment: fixed;
     background-position: center;
@@ -46,17 +57,24 @@ html{
 
 .transparenz{
     background-color: rgba(0, 0, 0, 0.25);
-/*     margin: 50px;
- */    padding: 40px;
+    padding: 40px;
 }
 
 
 /* ********** Allgemeine Styles FONTS *********** */
 
 p{
-/*     color: #6A6A6A; */
     font-family: "Helvetica-Medium";
-    margin: 15px;
+    margin: 15px 0p;
+}
+
+i{
+    font-family: "Helvetica-Italic";
+}
+
+b{
+    font-family: "Helvetica-Bold";
+    margin-bottom: -15px;
 }
 
 a{
@@ -72,6 +90,7 @@ h2{
 .h2_white{
     color: white;
     margin-bottom: 30px;
+    padding-top: 35px;
 }
 
 h3{
@@ -95,6 +114,7 @@ button{
 .btn_white{
     color: white;
     border: 2px solid white;
+    margin: 15px 0px 30px 0px;
 }
 
 .btn_white:hover{
@@ -127,17 +147,16 @@ button{
     display: flex;
     flex-direction: row;
     justify-content: center;
-/*     align-items: center;
- */    flex-wrap: wrap;
-    gap: 20px;
-    
+    flex-wrap: wrap;
+    gap: 20px;  
 }
 
 .flex_column_left{
     flex-wrap: wrap;
     display: flex;    
     flex-direction: column;
-    width: 27svw;
+    width: 25svw;
+    min-width: 20%;
     gap: 15px;
     padding: 5px;
     margin: 20px;   
@@ -149,8 +168,8 @@ button{
     align-items: center;
     text-align: center;
     gap: 20px;
-    width: 27svw;
-
+    width: 25svw;
+    margin: 30px 5px;
 }
 
 
@@ -208,21 +227,44 @@ h1:hover{
 /* ********** Gallery *********** */
 #gallery{
     color: #6A6A6A;
-    padding: 5% 1%;
+    padding: 5%;
 
 }
 
 .gallery_img{
+/*     display: block;
+    width: 100%;
+    height: auto; */
     
-
 }
 
-.gallery_img:hover{
+.gallery_img:hover .blue{
+    opacity: 0.7;
+}
 
+.btn_hover{  
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 .blue{
-
+    position: relative;
+    top: -100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 99%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #02383A;
 }
 
 
@@ -241,7 +283,7 @@ h1:hover{
 
 #Blog{
     color: #3A4F52;
-    padding: 5% 1%;
+    padding: 5%;
 
 }
 
@@ -253,7 +295,7 @@ h1:hover{
     color: white;
     text-align: center;
     background-image: url(../img/stuhl_green.png);
-    min-height: 30svh;
+    min-height: 40svh;
     padding: 5%;
 
 }
@@ -266,6 +308,12 @@ h1:hover{
     text-align: center;
     margin: 7%;
 }
+
+#Testimonials>div>div{
+    padding: 50px 20px 20px 20px;
+}
+
+
 
 
 
