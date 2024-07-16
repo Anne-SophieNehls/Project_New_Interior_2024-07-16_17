@@ -232,9 +232,10 @@ h1:hover{
 }
 
 .gallery_img{
-/*     display: block;
-    width: 100%;
-    height: auto; */
+/*     display: block;*/
+/*     width: 100%;
+ */    height: auto; 
+    overflow: hidden;
     
 }
 
@@ -242,11 +243,16 @@ h1:hover{
     opacity: 0.7;
 }
 
+
+.gallery_img:hover .img_hover{
+    transform: scale(2.0); 
+    transition: transform 0.5s, visibility 0.5s ease-in;
+}
+
 .btn_hover{  
-    color: white;
     font-size: 16px;
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
