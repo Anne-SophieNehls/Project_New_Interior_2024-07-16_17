@@ -38,13 +38,16 @@ html{
 
 /* ********** Allgemeine Styles *********** */
 .paralax{
-
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .transparenz{
-    background-color: rgba(0, 0, 0, 0.14);
-    margin: 50px;
-    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.25);
+/*     margin: 50px;
+ */    padding: 40px;
 }
 
 
@@ -53,6 +56,7 @@ html{
 p{
 /*     color: #6A6A6A; */
     font-family: "Helvetica-Medium";
+    margin: 15px;
 }
 
 a{
@@ -61,25 +65,29 @@ a{
 }
 
 h2{
-/*     color: #3A4F52; */
+   color: #3A4F52;
+   font-size: 36px;
+}
 
-
+.h2_white{
+    color: white;
+    margin-bottom: 30px;
 }
 
 h3{
-/*     color: #3A4F52; */
-
+    color: #3A4F52; 
+    font-size: 28px;
 }
 
 h4{
     color: white;
-
+    font-size: 28px;
 }
 
 /* ********** Button Styles allgemein *********** */
 
 button{
-    padding: 5px 10px;
+    padding: 10px 15px;
     background-color: rgba(255, 255, 255, 0);
     font-size: 20px;
 }
@@ -89,10 +97,21 @@ button{
     border: 2px solid white;
 }
 
+.btn_white:hover{
+    color: #6A6A6A;
+    background-color: white;
+    transition: 0.5s;
+}
+
 .btn_gray{
     color: #3A4F52;
     border: 2px solid #3A4F52;
+}
 
+.btn_gray:hover{
+    color: white;
+    background-color: #3A4F52;
+    transition: 0.5s;
 }
 
 /* ********** flex classes *********** */
@@ -108,10 +127,20 @@ button{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+/*     align-items: center;
+ */    flex-wrap: wrap;
     gap: 20px;
+    
+}
 
+.flex_column_left{
+    flex-wrap: wrap;
+    display: flex;    
+    flex-direction: column;
+    width: 27svw;
+    gap: 15px;
+    padding: 5px;
+    margin: 20px;   
 }
 
 .flex_column{
@@ -119,8 +148,9 @@ button{
     flex-direction: column;
     align-items: center;
     text-align: center;
-    width: 28svw;
     gap: 20px;
+    width: 27svw;
+
 }
 
 
@@ -134,6 +164,7 @@ h1{
 
 h1:hover{
     text-decoration: underline;
+    transition: 0.7s;
 }
 
 .burger{
@@ -150,7 +181,7 @@ h1:hover{
     background-image: url(../img/bild-hero.png);
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: fill;
+    background-size:cover;
     color: white;
     height: 100svh;
 }
@@ -160,7 +191,9 @@ h1:hover{
     font-size: 6rem;
     text-align: center;
     font-weight: 100;
-
+    color: white;
+    margin: 25svh 0svw 2svh;
+    text-shadow: 0px 0px 12px #6A6A6A;
 }
 
 #claim{
@@ -168,17 +201,19 @@ h1:hover{
     font-size: 2rem;
     font-weight: 800;
     text-align: center;
-
+    text-shadow: 0px 0px 10px #6A6A6A;
 }
 
 
 /* ********** Gallery *********** */
 #gallery{
     color: #6A6A6A;
+    padding: 5% 1%;
 
 }
 
 .gallery_img{
+    
 
 }
 
@@ -194,6 +229,11 @@ h1:hover{
 /* ********** Our Services *********** */
 #Our_Services{
     color: white;
+    text-align: center;
+    background-image: url(../img/stuhl_gelb.png);
+    min-height: 50svh;
+    padding: 5%;
+
 }
 
 
@@ -201,6 +241,7 @@ h1:hover{
 
 #Blog{
     color: #3A4F52;
+    padding: 5% 1%;
 
 }
 
@@ -210,6 +251,10 @@ h1:hover{
 
 #bla{
     color: white;
+    text-align: center;
+    background-image: url(../img/stuhl_green.png);
+    min-height: 30svh;
+    padding: 5%;
 
 }
 
@@ -218,7 +263,8 @@ h1:hover{
 
 #Testimonials{
     color: #6A6A6A;
-
+    text-align: center;
+    margin: 7%;
 }
 
 
@@ -227,15 +273,23 @@ h1:hover{
 
 #contact_us{
     color: white;
+    text-align: center;
+    background-image: url(../img/bett_gelb.png);
+    min-height: 70svh;
+    padding: 5%;
+}
 
+form{
+    margin: 2% 20%;
 }
 
 input{
-    width: 60svw;
-    height: 30px;
+    width: 40svw;
+    height: 60px;
     color: white;
-    background-color: none;
-    border: 1px solid white;
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid white;
+    margin: 10px 5% 10px 5% ;
 }
 
 
