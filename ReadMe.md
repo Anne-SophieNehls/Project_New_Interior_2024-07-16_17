@@ -15,11 +15,12 @@
 - [Wobei gab es Schwierigkeiten?]
 
 ## Worum Gehts?
+Dies ist das Abschlussprojekt des ersten Modules des Webdeveloer Kureses bei Supercode. Das Module ein endet nach etwas über einen Monat (von insgesamt 6 Monaten) und enthilt die Elemente des HTML- und CSS-Codens. Dieses Projekt ist quasie eine Zwischenprüfung deser Weiterbildung. 
+Wir haben eineinhalb Tage Zeit für dieses Projekt, es soll die angepassten Media-Querys enthalten sowie eine umfangreiche ReadMe, die du scheinbar gerade liest :D  
 
+Das Design war eine Figma-Vorlage, hier raus hat man sich die Bilder, Vektorgrafiken und Fonts entnommen. 
 
-
-
-
+Em ende Des Projetes wir dieses von den Kursteilnehmern Präsentiert und von den Kursleitern gibt es eine Review
 
 ## Womit und Wie habe ich gearbeitet?
 ### Programms und Sprachen
