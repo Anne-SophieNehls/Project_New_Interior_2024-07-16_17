@@ -3,6 +3,15 @@ p{
     font-size: 18px;
 }
 
+#title{
+    font-size: 5rem;
+}
+
+#claim{
+    font-size: 1.7rem;
+}
+
+
 /* ********** flex classes *********** */
 
 .flex_space_between{
