@@ -1,16 +1,16 @@
 # Project "New Interior" 🪑
 
 ## Inhaltsverzeichnes
-- Worum Gehts?
-- Womit und Wie habe ich gearbeitet?
-    - Programm und Sprachen
-    - HTML Aufbau
-    - Meine Wahl im CSS
-- Erklärung meines Abweichens von der Vorlage
-- How to Run?
-- Wobei gab es Schwierigkeiten?
+- [Worum Gehts?] (#Worum-Gehts?)
+- [Womit und Wie habe ich gearbeitet?]
+    - [Programm und Sprachen]
+    - [HTML Aufbau]
+    - [Meine Wahl im CSS]
+- [Erklärung meines Abweichens von der Vorlage]
+- [How to Run?]
+- [Wobei gab es Schwierigkeiten?]
 
-## worum Gehts?
+## Worum Gehts?
 
 
 
