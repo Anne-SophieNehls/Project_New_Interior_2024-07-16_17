@@ -40,6 +40,14 @@ p{
     width: 40svw; 
 }
 
+.gallery_img:hover .blue{
+    opacity: 0.0;
+}
+
+.gallery_img:hover .img_hover{
+    transform: scale(0.0); 
+}
+
 .img_hover{
     object-fit: cover;
 }

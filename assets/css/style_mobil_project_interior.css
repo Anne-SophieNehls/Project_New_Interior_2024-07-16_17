@@ -59,6 +59,16 @@ h1{
     padding: 8%;
 }
 
+
+.gallery_img:hover .blue{
+    opacity: 0.0;
+}
+
+.gallery_img:hover .img_hover{
+    transform: scale(0.0); 
+}
+
+
 /* ********** Our Services *********** */
 #Our_Services{
     padding: 10% 0%;
