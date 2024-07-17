@@ -62,9 +62,14 @@ Der Aubau startet mit den eingebetteten Fonts und den Allgemeinen Styles für di
 Flex-Box habe ich sehr viel verwendet. Daduruch, dass wir am Montag dieser Woche erst eine Projektarbeit zu dem Thema Flex-Box hatten und das heutige Projekt direkt im Anschluss folgte (Dienstag-Mittwoch), war ich noch sehr darin, alle objekte in Flex zu denken. Zudem war es mit dem flex-warp auch super easy und schnell die passenden Media-Querys zu erstellen.
 
 ## Erklärung meines Abweichens von der Figma-Vorlage
-Wie oben schon angedeutet, fand ich das Layout ion Figma in manchen Details nicht ganz optimal
+Wie oben schon angedeutet, fand ich das Layout ion Figma in manchen Details nicht ganz optimal. hier ein mal erklärt, was ich warum gewisse anpassungen gebeben habe:
+Es beginnt mit dem Titel und Claim im Hero. Hier habe wir eine sehr zarte Schrift in einer hellen Farbe, plaziert auf der hellsten stelle des Hintergrundbildes. Das sorgt für eine schlechte Lesbarkeit. um diese zu verbessen habe ich der Schrift einen umlaufenden Schlagschatten gegeben, ohne abstände damit erm mittig liegt und breit auslaufend, damit er beim ersten Blick nicht auffällt, aber die Schrift doch besser abhebt.
 
-bei den Media Queries habe ich beim Tablet die gallerie in zwei spalten angeordnet, alles wie bei der desktop ansicht war sehr klein, also hab ich es so angeordnet
+Weitere Allgemeine Änderung ist bei den Paralax bereichen der semi-transparente, schwarze Hintergrund. Hier finde ich dass die Figmadatei nicht berücksichtig wurde, das die Abstände teilweise unvorteilhaft na sind und mehr wie ein Fehler als wie ein gewünschter hintergrund aussehen. Ganz zufrieden bin ich mit meiner Lösung auch nicht, da müsste man nich mal ein bisschen fine-tuning betreiben
+
+
+
+bei den Media Queries habe ich beim Tablet die Gallerie vom Blog in zwei Spalten angeordnet, nicht in drei wie in der Vorlage. In der Figma-Vorlage war es  wie bei der Desktop-Ansicht und dadurch auf dem Tablt sehr klein dargestellt. Zudem nam die Section der Gallerie dadurch wenig fläche vom Bildschirm einnamen. Man sah immer viel von den beiden umliegenden Sections, die mit ihren großen Bilder den Blick sehr fangen. Es ist einfach unvorteilhaft für diese Blog-Gallery, sie kann gar nicht auf den betrachter Wirken. Deswegen habe ich es umgestaltet. 
 
 <div style="display: flex; justify-content: center;">
   <img src="./assets/img/bilder-fuer-readme/aenderung_ipad.jpg" alt="Project Screenshot">
@@ -72,7 +77,7 @@ bei den Media Queries habe ich beim Tablet die gallerie in zwei spalten angeordn
 <br/>
 
 
-mbeim moblie habe ich ein paar schriftgrößen nicht wie in der Vorlage, damit sie mit ihren umlaufenden objekten genügen freiraum haben
+Beim meiner Moblie-Variante habe ich ein paar Schriftgrößen nicht wie in der Vorlage umgesetzt. Gerade bei den Titeln der sections mit den Buttons auf der rechten Seite war es in der Vorlage an manchen stellen sehr gedrungen. Hier sind die Schriften nun kleiner und der Butten kann seine Schrift umbrechen, wenn andere Objekte zu nahe kommen, um sich selb den Platz zu verschaffen, den er braucht um Richtig zu wirken
 
 <div style="display: flex; justify-content: center;">
   <img src="./assets/img/bilder-fuer-readme/aenderung_mobile.jpg" alt="Project Screenshot">
@@ -86,8 +91,20 @@ mbeim moblie habe ich ein paar schriftgrößen nicht wie in der Vorlage, damit s
 
 ## How to Run?
 - **Demo:** [Demo-Website: Project-New-Interior](https://anne-sophienehls.github.io/Project_New_Interior_2024-07-16_17/?#hero)
-Hier ist ein Mal die Demo meiner Website, um sich diese im Browser anzeigen zu lassen. Um die Codes aber für sich selbst zu bekommen, solle die Repository geklont werden:
+Hier ist ein Mal die Demo meiner Website, um sich diese im Browser anzeigen zu lassen. Um die Codes aber für sich selbst zu bekommen, solle die Repository geklont oder heruntergeladen werden:
+Hierzu drückst di bei meiner GitHub-Reposety auf den grünen Button oben rechts mit dem Inhalt:<>code
+hier kannst du entwerder:
+        - die Zip runterladen, auf denen Computer spiecher und es in VS code öffnen
+        - oder mit dem link die die Repo Clonen
+zum Clonen öffne dein Terminal, und sage dem System, in welchen Ordner die Repo gecloned werden soll. 
 
+Nach dem Clonen/Download öffnest du die HTML in VS-Code
+Nun siehst du entwerder links unten ein Symbol mit dem Text "Go Live" oder du gehsr mit dem Rechtsklick auf die html und kannst hier anwählen "Open with Live Server"
+Jetzt kannst du den Code bearbeiten und nach jedem Speichern den Prozess verfolgen.
 
+Viel Spaß!
 
 ## Wobei gab es Schwierigkeiten?
+ 1. bei vielen Elementen habe ich versucht die Abstände mit Prozent oder viewhight/Wiegwith zu regeln, leider hat das aber nicht bei allen stellen dazu geführt, dass es sich immer gleichmäßg anpasst. Ich kann leider nicht sagen, wodran das liegt. Hoffentlich kann mich ein Kursleiter bei der Code-Review erleuchten :D
+
+ 2. der Hovereffektr bei der Gallery. Der sieht nur bei der Desktop, variante gut aus, ich habe den bei den Media-Querys leider nicht gut angepasst bekommen und hoffe auch hier auf aufschlussreiche Infos bei der Code-Review 
